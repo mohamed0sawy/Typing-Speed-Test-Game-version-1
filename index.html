@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/TG.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game">
+        <div class="back"></div>
+        <div class="title">Typing Speed Test Game</div>
+        <div class="container">
+            <div class="message">
+                <i class="fa-solid fa-flag-checkered"></i>
+                <div class="choosingTime">
+                    <p>Choose Time First Then Start :</p>
+                    <form action="">
+                        <label for="one">1 Minute</label>
+                        <input type="radio" name="time" id="one" value="60000">
+                        <label for="three">3 Minute</label>
+                        <input type="radio" name="time" id="three" value="180000">
+                        <label for="five">5 Minute</label>
+                        <input type="radio" name="time" id="five" value="300000">
+                    </form>
+                </div>
+                <p>
+                    Please be prepared. Good luck!
+                </p>
+                <button>Start</button>
+            </div>
+            <div class="words">
+                <div class="mainWord">test</div>
+                <div class="comingWord"> <span class="Ctitle">coming word :</span> <span class="Cword">ctest</span></div>
+            </div>
+            <input type="text" class="input" placeholder="write text here">
+            <div class="control">
+                <div class="time">
+                    Time left : <span class="minutes"></span> <span>:</span> <span class="seconds"></span>
+                </div>
+                <div class="score">
+                    correct words <span>0</span>
+                </div>
+            </div>
+            <div class="results">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <h2>Good job</h2>
+                <div class="speed"> your Speed : <span></span> WPM</div>
+                <div class="accuracy"> your Accuracy : <span></span> % </div>
+                <button class="again">Take test again</button>
+            </div>
+        </div>
+        <div class="footer">Made with <i class="fa-solid fa-heart"></i> By <span>MOHAMED TAREK</span></div>
+    </div>
+
+
+
+
+    <script src="js/TG.js"></script>
+</body>
+</html>
