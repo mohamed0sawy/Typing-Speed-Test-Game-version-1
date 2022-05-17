@@ -1,7 +1,7 @@
 # Typing-Speed-Test-Game
 This game measure your speed and accuracy in typing. many random words appear and your job is to write them correctly as fast as possible.
 ## link to preview
-https://mohamed0tarek.github.io/Typing-Speed-Test-Game/
+https://mohamed0tarek.github.io/Typing-Speed-Test-Game-version-1/
 
 ## Screenshots
 ![1](https://user-images.githubusercontent.com/92942683/168603021-fe4d2d48-29b1-4b0c-a4f1-64a7e7de9936.png)
