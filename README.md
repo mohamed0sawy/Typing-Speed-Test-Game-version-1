@@ -1,4 +1,4 @@
-# Typing-Speed-Test-Game
+# Typing-Speed-Test-Game-version-1.(v1.0)
 
 ## Overview
 
