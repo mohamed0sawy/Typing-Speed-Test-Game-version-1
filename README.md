@@ -10,14 +10,14 @@ https://github.com/mohamed0tarek/Typing-Speed-Test-Game-version-2-
 
 ## How to work
 * Choose the time.
-* start typing.
-* result will appear once time out.
+* Start typing.
+* Result will appear once time out.
 
 ## Technologies
 * javascript
 * HTML
 * CSS
 
-## link to preview
+## Link to preview
 https://mohamed0tarek.github.io/Typing-Speed-Test-Game-version-1/
 
